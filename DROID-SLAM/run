@@ -1,0 +1,7 @@
+python demo.py \
+  --imagedir /code/DROID-SLAM/rgb \
+  --calib /code/DROID-SLAM/my_calib \
+  --stride 1 \
+  --disable_vis \
+  --weights /code/DROID-SLAM/droid.pth \
+  --reconstruction_path /code/DROID-SLAM/output_dir/reconstruction.pth
