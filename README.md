@@ -11,6 +11,8 @@ The author used [DROID-SLAM](https://github.com/princeton-vl/DROID-SLAM) to extr
  [RAFT](https://github.com/princeton-vl/RAFT) to extract optical flow, we provided optical flow features extracted using a pre-trained ResNet [here](https://drive.google.com/drive/folders/1hoWdQKXoX4Hc7FGtNcJqmo6fO9QoGKEw?usp=drive_link). Please find the results for each dataset and put them into desired path ```data/ares/raft_of_feats```, ```data/gimo/raft_of_feats```, ```data/kinpoly/fpv_of_feats```. 
 
 For our own data, I first use the DROID-SLAM and RAFT to extract the features I need
+
+
 Custom stage1 default path now assumes:
 
 - flow: `flow_out/*.flo`
